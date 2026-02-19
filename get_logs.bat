@@ -1,0 +1,3 @@
+@echo off
+echo Conectando na VPS...
+C:\Windows\System32\OpenSSH\ssh.exe -i C:\Users\ariel\.ssh\id_rsa -o StrictHostKeyChecking=no root@143.198.9.121 "tail -50 /root/logs/bisync.log"
